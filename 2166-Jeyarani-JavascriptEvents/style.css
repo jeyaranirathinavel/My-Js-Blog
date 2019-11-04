@@ -1,0 +1,25 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+.example {
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+.row {
+    padding: 5px;
+}

@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JS Events</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,600i,700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row col-md-10">
+            <img src="banner.jpg" alt="JS Event">
+        </div>
+        <div class="row col-md-10">
+            <h3>🤔 Did you know what can done by JS Events?</h3>
+            <p class="text-justify">
+                My friend came up small issue in her HTML code. She said, <i><b>"I designed well my web page and my web
+                        page have HTML Elements (Button, Textbox, etc.). When I was clicked the button it doesn’t work
+                        and there is no interaction between web page and me. What can I do for the user
+                        interaction?"</b></i>. 😂 I laughed and said, "Hey! use javascript events and you will get the
+                user
+                interation on your web page"
+            </p>
+        </div>
+        <div class="row col-md-10">
+            <h2 class="text-primary">JavaScript Events</h2>
+        </div>
+        <div class="row col-md-10">
+            <div class="col-md-3">
+                <img src="intro.png" alt="JS Event">
+            </div>
+            <div class="col-md-9">
+                <p class="text-justify">When JavaScript is used in HTML pages, JavaScript can "<strong>react</strong>"
+                    on these events. Normally, what is an <strong>event</strong>?</p>
+                <p>When the page loads, it is called an event.</p>
+                <p>When the user clicks a button, that click too is an event.</p>
+                <p>Other examples include events like pressing any key, closing a window, resizing a window, etc.</p>
+            </div>
+        </div>
+        <div class="row col-md-10">
+            <h3>The <i>onclick()</i> event</h3>
+        </div>
+        <div class="row col-md-10">
+            <p class="text-justify">This is the most frequently used event type which occurs when a user clicks the
+                button of his mouse.</p>
+            <p class="text-justify">The <code>click()</code> method triggers the click event, or attaches a function to
+                run when a click event occurs. We can use either or neither.</P>
+            <p class="text-justify">Trigger the click event for the selected elements: <code>$(selector).click()</code>
+            </p>
+            <p class="text-justify">Attach a function to the click event: <code>$(selector).click(function)</code></p>
+            <p class="text-justify"> Developers can use these events to close windows, messages to be displayed to
+                users, data to be validated.</p>
+            <div class="col-md-12 example">
+                <h5>Example</h5>
+                <p class="text-justify">Execute a JavaScript Its shows the alert when a button is clicked:</p>
+                <img src="buttonclick_code.PNG" alt="JS Event">
+                <img src="buttonclick_img1.PNG" alt="JS Event">
+                <img src="buttonclick_img_msg.PNG" alt="JS Event">
+            </div>
+        </div>
+        <div class="row col-md-10">
+            <h3>The <i>onchange()</i> event</h3>
+        </div>
+        <div class="row col-md-10">
+            <p class="text-justify">The Onchange is used to change the value of the input fields.</p>
+            <p class="text-justify">The change event occurs when the value of an element has been changed (only works on
+                input ,textarea and select elements).</P>
+            <p class="text-justify"> The <code>change()</code> method triggers the change event, or attaches a function
+                to run when a change event occurs.</p>
+            <p class="text-justify">Trigger the change event for the selected elements:
+                <code>$(selector).change()</code></p>
+            <p class="text-justify"> Attach a function to the change event: <code>$(selector).change(function)</code>
+            </p>
+            <div class="col-md-12 example">
+                <h5>Example</h5>
+                <p class="text-justify">Execute a JavaScript Its shows the alert when a textbox text is entered:</p>
+                <img src="change.PNG" alt="JS Event">
+                <img src="change1.PNG" alt="JS Event">
+                <img src="change2.PNG" alt="JS Event">
+            </div>
+        </div>
+        <div class="row col-md-10">
+            <h3>The <i>mouseover() and mouseout()</i> events</h3>
+        </div>
+        <div class="row col-md-10">
+            <div class="col-md-12">
+                <h4>mouseover method()</h4>
+                <p class="text-justify">The mouseover event occurs when the mouse pointer is over the selected element.
+                </p>
+                <p class="text-justify">The <code>mouseover()</code> method triggers the mouseover event, or attaches a
+                    function to run when a mouseover event occurs.</p>
+                <p class="text-justify">Trigger the mouseover event for the selected elements:
+                    <code>$(selector).mouseover()</code></p>
+                <p class="text-justify">Attach a function to the mouseover event:
+                    <code>$(selector).mouseover(function)</code></p>
+            </div>
+            <div class="col-md-12">
+                <h4>mouseout method()</h4>
+                <p class="text-justify">The mouseout event occurs when the mouse pointer leaves the selected element</p>
+                <p class="text-justify">The <code>mouseout()</code> method triggers the mouseout event, or attaches a
+                    function to run when a mouseout event occurs.</p>
+                <p class="text-justify">Trigger the mouseout event for the selected elements:
+                    <code>$(selector).mouseout()</code></p>
+                <p class="text-justify">Attach a function to the mouseout event:
+                    <code>$(selector).mouseout(function)</code>
+                </p>
+            </div>
+            <div class="col-md-12 example">
+                <h5>Example</h5>
+                <p class="text-justify">Execute a JavaScript Its shows the different when a mouseover and mouseout the
+                    element.</p>
+                <img src="onmouseover.PNG" alt="JS Event">
+                <img src="onmouseover1.PNG" alt="JS Event">
+                <img src="onmouseover2.PNG" alt="JS Event">
+            </div>
+        </div>
+        <div class="row col-md-10">
+            <h3>The <i>onload()</i> event</h3>
+        </div>
+        <div class="row col-md-10">
+            <p class="text-justify">The load() method attaches an event handler to the load event.</p>
+            <p class="text-justify">The <code>load()</code>event occurs when a specified element has been loaded.</P>
+            <p class="text-justify">This event works with elements associated with a URL (image, script, frame, iframe),
+                and the window object.</p>
+            <p class="text-justify">Depending on the browser, the load event may not trigger if the image is
+                cached(Firefox and IE).</p>
+            <code>$(selector).load(function)</code>
+            <div class="col-md-12 example">
+                <h5>Example</h5>
+                <p class="text-justify">Execute a JavaScript immediately after a page has been loaded the load event
+                    will be called.</p>
+                <img src="onload.PNG" alt="JS Event">
+                <img src="onload1.PNG" alt="JS Event">
+            </div>
+        </div>
+        <div class="row col-md-10">
+            <h3>The <i>keydown() and keyup()</i> events</h3>
+        </div>
+        <div class="row col-md-10">
+            <div class="col-md-12">
+                <h4>keydown method()</h4>
+                <p class="text-justify">keydown() - The key is on its way down</p>
+                <p class="text-justify">The <code>keydown()</code> is an inbuilt method in jQuery which is used to
+                    trigger
+                    the keydown event whenever User presses a key on the keyboard. If the key is kept pressed, the event
+                    is
+                    sent every time the operating system repeats the key. So, Using keydown() method we can detect if
+                    any
+                    key is on its way down.</p>
+                <p class="text-justify">Trigger the keydown event for the selected elements:
+                    <code>$(selector).keydown()</code></p>
+                <p class="text-justify">Attach a function to the keydown event:
+                    <code>$(selector).keydown(function)</code>
+                </p>
+            </div>
+            <div class="col-md-12">
+                <h4>keyup method()</h4>
+                <p class="text-justify">keyup() - The key is released</p>
+                <p class="text-justify">The <code>keyup()</code> method triggers the keyup event, or attaches a function
+                    to
+                    run when a keyup event occurs.</p>
+                <p class="text-justify">Trigger the keyup event for the selected elements:
+                    <code>$(selector).keyup()</code>
+                </p>
+                <p class="text-justify"> Attach a function to the keyup event: <code>$(selector).keyup(function)</code>
+                </p>
+            </div>
+            <div class="col-md-12 example">
+                <h5>Example</h5>
+                <p class="text-justify">Execute a JavaScript Its shows the different when a user types the input and
+                    key
+                    is released.</p>
+                <img src="keydown.PNG" alt="JS Event">
+                <img src="keydown1.PNG" alt="JS Event">
+                <img src="keyup.PNG" alt="JS Event">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
